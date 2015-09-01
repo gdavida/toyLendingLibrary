@@ -1,0 +1,42 @@
+/*
+Theme Name: Harmony Child Theme
+Theme URI: 
+Description: A Twenty Twelve Child Theme
+Author: 
+Author URI: 
+Template: Harmony
+Version: 1.0
+*/
+
+@import url("../Harmony/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+h1, h2, h3, h4, h5, h6, p, #breadcrumbs a, #news-section h3 a, #events-list h2 a {
+  color: black;
+  text-shadow: none;
+}
+
+#main-header #et-site-title {
+    text-shadow: 0 0 7px rgba(0,0,0,0.5);
+
+}
+
+#main-nav {
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid #E6E6B4;
+}
+
+#top-menu a, #mobile_links a{
+  color: white;
+  text-shadow: none;
+}
+
+.image-date {
+  border: none;
+  background-color: white;
+  background: linear-gradient(to bottom, white 100%, white 100%);
+}
